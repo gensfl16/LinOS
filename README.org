@@ -1,0 +1,17 @@
+#+TITLE: LinOS
+
+* 概述
+
+在代码 [[http://wiki.osdev.org/Meaty_Skeleton][Meaty Skeleton]] ([[https://gitlab.com/sortie/meaty-skeleton][Gitlab]]) 基础上进行开发。
+
+* 修改
+
+1. 将 .sh 改写成 Makefile
+2. 加入部分功能，可以输出换行、可以屏幕一行一行滚动
+3. libc/stdio/printf.c 中 limits.h 注释掉，然后定义了下 INT_MAX
+
+* 之后计划
+
+1. 尝试解决 limits.h 的问题
+2. 继续按照 OSDev 的说明往下做
+3. 读 Linux 的早期代码（赵炯《Linux内核完全注释》）
